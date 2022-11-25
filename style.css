@@ -1,8 +1,14 @@
+@font-face {
+    font-family: 'aqua grotesque regular';
+    src: url(./fonts/aqua.ttf);
+}
 body{
     background-color: rgb(219, 219, 219);
+    font-family: 'aqua grotesque regular';
 }
 h1{
-    text-align: center
+    text-align: center;
+    font-family: 'aqua grotesque regular';
 }
 .container{
     text-align: center;
@@ -42,6 +48,19 @@ tr{
 /*  */
 .striketaskDone{
     text-decoration: line-through;
+}
+.reset a{
+    text-align: center;
+    display:block;
+    padding: 20px;
+    width: 100px;
+    background-color: red;
+    border: 2px solid black;
+    border-radius: 5px;
+    color: white;
+    font-weight: 500;
+    margin: 0 auto;
+    cursor: pointer;
 }
 
 

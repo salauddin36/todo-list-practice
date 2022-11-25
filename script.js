@@ -41,3 +41,8 @@ function removeRow(e){
     let tab =document.getElementById('table');
     tab.deleteRow(e.parentNode.parentNode.rowIndex);
 }
+
+// remove all
+function removeAll(){
+    document.querySelector("#table").innerHTML='';
+}
